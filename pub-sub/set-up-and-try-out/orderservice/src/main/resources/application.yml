@@ -1,0 +1,11 @@
+spring:
+ application:
+  name: orderservice
+ cloud:
+  gcp:
+   project-id: <GCP-PROJECT-ID>
+   credentials:
+    location: file:<PUB/SUB-PUBLISHER-ROLE-SERVICE-ACCOUNT-KEY-JSON-PATH>
+
+server:
+ port: 8081
